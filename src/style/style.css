@@ -1,0 +1,164 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 15px;
+  color: #858484;
+  width: 100%;
+  min-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: #858484;
+}
+a:hover {
+  color: #e83233;
+  transition: color .2s linear
+}
+
+hr {
+  color: #e5e5e5;
+  margin-left: 30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header_nav {
+  margin-top: 30px;
+}
+.nav {
+  text-align: right;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #858484;
+  margin: 0 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav_bar {
+  margin: 30px 0;
+  width: 660px;
+  float: right;
+  font-size: 18px;
+  left: 2px;
+  top: 20px;
+}
+  /* Second bar */
+
+.img_logo {
+  margin-top: 15px;
+  margin-left: 30px;
+  display: flex;
+  width: 440px;
+  top: -44px;
+}
+
+.logo{
+  width: 440px;
+  height:120px;
+}
+
+.find {
+  display: inline-block;
+  width: 700px;
+  float: right;
+}
+
+/* Left bar  */
+
+.link_left_bar {
+  display: block;
+  padding-bottom: 10px;
+
+}
+.left_bar_table {
+  margin-top: 30px;
+  width: 160px;
+  height: 30px;
+  margin-left: 30px;
+
+}
+.table {
+  padding:15px 20px;
+  background-color: #f1f1f1;
+}
+
+/* Alko */
+
+.central_info {
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.alko {
+  width: 250px;
+  text-align: center;
+  border: 1px solid #f1f1f1;
+  margin: 10px;
+}
+
+.alko_info {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.alko_info_second {
+  font-size: 15px;
+  color: #b8b8c5;
+}
+
+/* Text info */
+
+.text_info {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.text {
+  left: 250px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+/* Application */
+
+.application_pic {
+  width: 100%;
+  max-width: 917px;
+  margin: 0 auto;
+}
+
+.application {
+  width: 917px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f1f1f1;
+  color: #b8b8c5;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_text {
+  margin: 0 20px;
+  width: 250px;
+  display: inline-block;
+}

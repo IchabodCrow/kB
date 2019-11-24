@@ -1,0 +1,1 @@
+$('#centralBlock').html($('#indexTextTmpl').tmpl()) 
